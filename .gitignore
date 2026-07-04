@@ -1,0 +1,40 @@
+# --- Данные: НЕ коммитим сырые датасеты и выгрузки ---
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.joblib
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Среды разработки / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Секреты
+.env
+.env.*
+*.key
